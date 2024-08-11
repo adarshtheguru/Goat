@@ -1,0 +1,41 @@
+.cursorPointer{
+    cursor: pointer;
+}
+.secTitle{
+    font-size: 2.4rem;
+    color: $white;
+    font-family: $fontM;
+    margin-bottom: 10px;
+    @media ($max640) {
+        font-size: 2rem;
+    }
+}
+.secInfoTitle{
+    font-size: 1.8rem;
+    color: $sc;
+    font-family: $fontM;
+    margin-bottom: 10px;
+    @media ($max640) {
+        font-size: 1.4rem;
+    }
+}
+.secPara{
+    font-size: 1.6rem;
+    color: $sc;
+    font-family: $fontM;
+    @media ($max640) {
+        font-size: 1.2rem;
+    }
+}
+.bluebg{
+    background-color: #7c96b7;
+}
+.blackbg{
+    background-color: $black;
+}
+.whitebg{
+    background-color: $white;
+}
+.purplebg{
+    background-color: #a3a8d2;
+}
