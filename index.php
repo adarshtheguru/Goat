@@ -133,11 +133,11 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="zone zone1">
-						<div class="col-3 blackbg detailCol">
+						<div class="col-3 col-xs-12 blackbg detailCol">
 							<div class="zoneTitle">ZONE 1</div>
 							<div class="zoneDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</div>
 						</div>
-						<div class="col-9 bluebg iconCol">
+						<div class="col-9 col-xs-12 bluebg iconCol">
 							<div class="iconSliderWrapper">
 								<div class="iconSlider">
 									<div class="slide">
@@ -170,7 +170,11 @@
 						</div>
 					</div>
 					<div class="zone zone2">
-						<div class="col-9 whitebg iconCol">
+						<div class="col-3 col-xs-12 blackbg detailCol visible-xs">
+							<div class="zoneTitle">ZONE 2</div>
+							<div class="zoneDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</div>
+						</div>
+						<div class="col-9 col-xs-12 whitebg iconCol">
 							<div class="iconSliderWrapper2">
 								<div class="iconSlider2">
 									<div class="slide">
@@ -207,17 +211,17 @@
 								<div class="icondots2"></div>
 							</div>
 						</div>
-						<div class="col-3 blackbg detailCol">
-							<div class="zoneTitle">ZONE 1</div>
+						<div class="col-3 col-xs-12 blackbg detailCol hidden-xs">
+							<div class="zoneTitle">ZONE 2</div>
 							<div class="zoneDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</div>
 						</div>
 					</div>
 					<div class="zone zone3">
-						<div class="col-3 blackbg detailCol">
-							<div class="zoneTitle">ZONE 1</div>
+						<div class="col-3 col-xs-12 blackbg detailCol">
+							<div class="zoneTitle">ZONE 3</div>
 							<div class="zoneDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</div>
 						</div>
-						<div class="col-9 purplebg iconCol">
+						<div class="col-9 col-xs-12 purplebg iconCol">
 							<div class="iconSliderWrapper3">
 								<div class="iconSlider3">
 									<div class="slide">
@@ -260,7 +264,7 @@
 				<div class="col-12">
 					<div class="secTitle text-black text-bold text-center">WHY SETTLE FOR LESS WHEN YOU CAN HAVE THE G.O.A.T LIFESTYLE?</div>
 					<div class="lifeVideo">
-						<iframe width="100%" height="600" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=eak5CEAJQfNMTRyL&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="100%" height="500" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=eak5CEAJQfNMTRyL&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>

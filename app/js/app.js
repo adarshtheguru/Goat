@@ -138,18 +138,42 @@ $(document).ready(function(){
 			arrows: false,
 			dots: true,
 			appendDots: '.icondots',
+			responsive: [
+				{
+					breakpoint: 640,
+					settings: {
+						slidesToShow: 1,
+					}
+				}
+			]
 		});
 		$('.iconSlider2').slick({
 			slidesToShow:4,
 			arrows: false,
 			dots: true,
 			appendDots: '.icondots2',
+			responsive: [
+				{
+					breakpoint: 640,
+					settings: {
+						slidesToShow: 1,
+					}
+				}
+			]
 		});
 		$('.iconSlider3').slick({
 			slidesToShow:4,
 			arrows: false,
 			dots: true,
 			appendDots: '.icondots3',
+			responsive: [
+				{
+					breakpoint: 640,
+					settings: {
+						slidesToShow: 1,
+					}
+				}
+			]
 		});
 		$('.specImgSlider').slick({
 			slidesToShow:1,
@@ -172,6 +196,12 @@ $(document).ready(function(){
 					breakpoint: 992,
 					settings: {
 						slidesToShow: 2,
+					}
+				},
+				{
+					breakpoint: 640,
+					settings: {
+						slidesToShow: 1,
 					}
 				}
 			]

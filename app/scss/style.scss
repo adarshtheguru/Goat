@@ -682,6 +682,9 @@ footer {
 		background-color: $background-color_7;
 		padding: 10px 0;
 		font-size: 12px;
+		@media ($max640) {
+			padding: 20px 0;
+		}
 	}
 }
 /* ------------------------------ text animation code starts ---------------------------  */

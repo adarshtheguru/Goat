@@ -322,24 +322,26 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		background-color: $background-color_2;
 		font-size: 14px;
 		font-weight: 600;
-		z-index: 999999;
+		z-index:4;
 		a {
 			display: block;
 			line-height: 30px;
 		}
 		a.mob-enq-btn {
-			background-color: $background-color_1;
-			color: $color_1;
+			background-color: $sc;
+			color: $white;
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 14px;
+			padding: 5px 0;
 		}
 		a.mob-call-btn {
-			background-color: $background-color_2;
-			color: $color_3;
+			background-color: $black;
+			color: $white;
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 14px;
+			padding: 5px 0;
 		}
 	}
 	.home-banner {
